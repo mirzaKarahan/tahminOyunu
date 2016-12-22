@@ -1,4 +1,16 @@
-            int tahmin;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramlamaDers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {          
+          int tahmin;
             int adim = 1;
             int min = 0;
             int max = 100;
@@ -32,3 +44,4 @@
                 }
                 adim++;
             } while (!sonuc);
+}
